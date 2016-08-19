@@ -3,27 +3,35 @@ html, body {
 	padding: 0px;
 }
 
-header {
-	padding-top: 15px;
-	padding-bottom: 35px;
+.image-container-row {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+	margin-bottom: 50px;
+}
+
+.clearfix::after {
+  content:"";
+  display:table;
+  clear:both;
 }
 
 h1 {
 	font-size: 80px;
 	font-family: 'Ubuntu', sans-serif;
 	font-weight: normal;;
-	color: white;
+	color: #fff;
 	margin-left: auto;
 	margin-right: auto;
 	width: 80%;
 	text-align: center;
+	text-shadow: 2px 2px 4px rgba(0,0,0,0.15), 1px 1px 0px rgba(0,0,0,0.3)
 }
 
 .smaller-image {
-	width :350px;
-	padding-left: 20px;
-	padding-right: 20px;
-	padding-bottom: 10px;
+	width :100%;
+	display: block;
+	margin-bottom: 10px;
 }
 
 .header-container {
@@ -33,7 +41,6 @@ h1 {
 	padding-top: 75px;
 	padding-bottom: 90px;
 	margin-bottom: 50px;
-
 }
 
 .button {
@@ -43,35 +50,34 @@ h1 {
 	font-weight: bold;
 	background-color: #ff6666;
 	color: white;
-	padding-right: 10px;
-	padding-left:10px;
-	padding-bottom: 5px;
-	padding-top: 5px;
-	border-top: 1.5px solid #CCCCCC;
-  border-right: 1.5px solid #669999;
-  border-bottom: 1.5px solid #669999;
-  border-left: 1.5px solid #CCCCCC;
-	border-radius: 5px;
-	margin-left: 8px;
-	margin-right: 8px;
+	display: inline-block;
+	padding: 0 20px;
+	border-radius: 40px;
+	line-height: 220%;
+	margin: 20px 8px 24px 8px;
+	box-shadow: 0 1px 0 #d72525;
 }
 
 .navigation {
 	float:right;
+	margin-right: 10px;
 }
 
 .image-container {
-	border-top: 1px solid #669999;
-  border-right: 1px solid #669999;
-  border-bottom: 1px solid #669999;
-  border-left: 1px solid #669999;
-	width: 46%;
+	border: 1px solid #669999;
+	width: 49%;
+	box-sizing: border-box;
 	padding-top: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
 	padding-bottom: 20px;
-	display: inline-block;
-	margin-left: 17px;
-	margin-right: 10px;
-	margin-bottom: 75px;
+	display: block;
+	text-decoration: none;
+	float: left;
+}
+
+.image-container:first-child {
+  margin-right:2%;
 }
 
 .blog-button {
@@ -79,7 +85,7 @@ h1 {
 	color: #ff6666;
 	font-weight: bold;
 	font-size: 20px;
-	text-decoration: none;
+	display: block;
 }
 
 .homepage-text {
@@ -116,17 +122,10 @@ h1 {
 
 p {
 	font-family: 'Raleway', sans-serif;
-	margin-left: 30px;
-	margin-right: 30px;
-}
-
-.blog-header {
-	font-size: 80px;
-	font-family: 'Ubuntu', sans-serif;
-	font-weight: normal;;
-	color:   #ff6666;
+	font-size: 18px;
+	color: #555;
+	max-width: 35em;
+	line-height: 140%;
 	margin-left: auto;
 	margin-right: auto;
-	width: 80%;
-	text-align: center;
 }
