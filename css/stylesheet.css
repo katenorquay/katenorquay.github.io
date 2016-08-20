@@ -45,17 +45,23 @@ h1 {
 
 .button {
 	text-decoration: none;
-	font-size: 16px;
+	font-size: 14px;
 	font-family: 'Raleway', sans-serif;
 	font-weight: bold;
-	background-color: #ff6666;
+	letter-spacing: 4px;
+	text-transform: uppercase;
+	border: solid;
 	color: white;
 	display: inline-block;
 	padding: 0 20px;
-	border-radius: 40px;
+	padding-top: 2px; 	/*makes button even */
 	line-height: 220%;
 	margin: 20px 8px 24px 8px;
-	box-shadow: 0 1px 0 #d72525;
+	transition: 0.2s all ease-in-out;
+}
+
+.button:hover {
+	background-color: #ff6666;
 }
 
 .navigation {
