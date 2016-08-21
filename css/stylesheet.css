@@ -70,7 +70,7 @@ h1 {
 }
 
 .image-container {
-	border: 1px solid #669999;
+	border: 2px solid #669999;
 	width: 49%;
 	box-sizing: border-box;
 	padding-top: 20px;
@@ -80,6 +80,13 @@ h1 {
 	display: block;
 	text-decoration: none;
 	float: left;
+	transition: 02s all ease-in-out;
+	position: relative;
+}
+
+.image-container:hover {
+	top: -5px;
+
 }
 
 .image-container:first-child {
