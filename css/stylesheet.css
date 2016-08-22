@@ -10,6 +10,13 @@ html, body {
 	margin-bottom: 50px;
 }
 
+.image-container-row-2 {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+	margin-bottom: 50px;
+}
+
 .clearfix::after {
   content:"";
   display:table;
@@ -90,6 +97,34 @@ h1 {
 }
 
 .image-container:first-child {
+  margin-right:2%;
+}
+
+.image-container-2 {
+	border: 2px solid #669999;
+	width: 32%;
+	box-sizing: border-box;
+	padding-top: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 20px;
+	display: block;
+	text-decoration: none;
+	float: left;
+	transition: 02s all ease-in-out;
+	position: relative;
+}
+
+.image-container-2:hover {
+	top: -5px;
+
+}
+
+.image-container-2:first-child {
+  margin-right:2%;
+}
+
+.image-container-2:nth-child(2) {
   margin-right:2%;
 }
 
