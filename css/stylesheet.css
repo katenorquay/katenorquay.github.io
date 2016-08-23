@@ -7,7 +7,7 @@ html, body {
   width: 80%;
   margin-left: auto;
   margin-right: auto;
-	margin-bottom: 50px;
+	margin-bottom: 17px;
 }
 
 .image-container-row-2 {
@@ -168,7 +168,16 @@ h1 {
 	margin-bottom: 75px;
 }
 
-p {
+.header-container-html {
+	width: 100%;
+	background-image: url("../spreadsheets.jpg");
+	background-size: cover;
+	padding-top: 75px;
+	padding-bottom: 75px;
+	margin-bottom: 75px;
+}
+
+p, li {
 	font-family: 'Raleway', sans-serif;
 	font-size: 18px;
 	color: #555;
@@ -176,4 +185,21 @@ p {
 	line-height: 140%;
 	margin-left: auto;
 	margin-right: auto;
+}
+
+h2 {
+	font-family: 'Raleway', sans-serif;
+	font-size: 18px;
+	weight: bold;
+	color: #555;
+	max-width: 35em;
+	line-height: 140%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.list {
+	font-family: 'Raleway', sans-serif;
+	color: #ff6666;
+	text-decoration: none;
 }
