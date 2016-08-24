@@ -224,6 +224,20 @@ h2 {
 	}
 }
 
+@media (max-width: 480px) {
+.image-container, .image-container-2 {
+	float: none;
+	width: 100%
+	}
+h1 {
+	font-size: 40px;
+}
+.header-container {
+	min-height: auto;
+}
+}
+
+
 .flex {
 	display: flex;
 }
