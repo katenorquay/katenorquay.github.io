@@ -29,12 +29,13 @@ h1 {
 	font-family: 'Ubuntu', sans-serif;
 	font-weight: normal;;
 	color: #fff;
-	padding-top: 50px;
-	margin-left: auto;
-	margin-right: auto;
-	width: 80%;
+	margin-top: 0;
+	margin-bottom: 0;
 	text-align: center;
 	text-shadow: 2px 2px 4px rgba(0,0,0,0.15), 1px 1px 0px rgba(0,0,0,0.3);
+	display: inline-block;
+	vertical-align: middle;
+	line-height: normal;
 }
 
 .smaller-image {
@@ -46,11 +47,11 @@ h1 {
 .header-container {
 	width: 100%;
 	background-size: cover;
-	padding-top: 75px;
-	padding-bottom: 75px;
 	margin-bottom: 50px;
 	background-position: center;
-	min-height: 350px;
+	height: 420px;
+	line-height: 420px;
+	text-align: center;
 }
 
 .santiago {
@@ -80,8 +81,8 @@ h1 {
 }
 
 .navigation {
-	float:right;
-	margin-right: 10px;
+	position: absolute;
+	right: 10px;
 }
 
 .image-container {
@@ -118,8 +119,7 @@ h1 {
 	padding-bottom: 20px;
 	display: block;
 	text-decoration: none;
-	float: left;
-	transition: 02s all ease-in-out;
+	transition: 0.2s all ease-in-out;
 	position: relative;
 }
 
@@ -218,26 +218,40 @@ h2 {
 	text-decoration: none;
 }
 
+.flex {
+	display: flex;
+}
+
 @media (max-width: 540px) {
 	.blog-button {
 		font-size: 12px;
 	}
 }
 
-@media (max-width: 480px) {
-.image-container, .image-container-2 {
+@media (max-width: 600px) {
+.image-container{
 	float: none;
-	width: 100%
+	width: 100%;
+	margin-bottom:10px;
 	}
+.image-container-row {
+	margin-bottom: 0;
+}
 h1 {
-	font-size: 40px;
+	font-size: 60px;
 }
 .header-container {
-	min-height: auto;
+	min-height: 0;
 }
-}
-
-
 .flex {
-	display: flex;
+	display: block;
+}
+.image-container-2 {
+	width: 100%;
+	margin-bottom: 10px;
+}
+p, li {
+	margin-left: 20px;
+	margin-right: 20px;
+}
 }
