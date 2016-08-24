@@ -96,7 +96,7 @@ h1 {
 	display: block;
 	text-decoration: none;
 	float: left;
-	transition: 02s all ease-in-out;
+	transition: 0.2s all ease-in-out;
 	position: relative;
 }
 
