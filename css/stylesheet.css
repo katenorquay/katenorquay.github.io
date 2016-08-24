@@ -18,9 +18,10 @@ html, body {
 }
 
 .clearfix::after {
-  content:"";
-  display:table;
-  clear:both;
+	content: "";
+	display: table;
+	clear: both;
+
 }
 
 h1 {
@@ -28,11 +29,12 @@ h1 {
 	font-family: 'Ubuntu', sans-serif;
 	font-weight: normal;;
 	color: #fff;
+	padding-top: 50px;
 	margin-left: auto;
 	margin-right: auto;
 	width: 80%;
 	text-align: center;
-	text-shadow: 2px 2px 4px rgba(0,0,0,0.15), 1px 1px 0px rgba(0,0,0,0.3)
+	text-shadow: 2px 2px 4px rgba(0,0,0,0.15), 1px 1px 0px rgba(0,0,0,0.3);
 }
 
 .smaller-image {
@@ -43,12 +45,18 @@ h1 {
 
 .header-container {
 	width: 100%;
-	background-image: url("../santiago.jpg");
 	background-size: cover;
 	padding-top: 75px;
-	padding-bottom: 90px;
+	padding-bottom: 75px;
 	margin-bottom: 50px;
+	background-position: center;
+	min-height: 350px;
 }
+
+.santiago {
+		background-image: url("../santiago.jpg");
+}
+
 
 .button {
 	text-decoration: none;
@@ -162,54 +170,24 @@ h1 {
 	min-width: 32px;
 }
 
-
-
-
-
-
-.header-container-reflection {
-	width: 100%;
+.reflection {
 	background-image: url("../rocket.jpg");
-	background-size: cover;
-	padding-top: 75px;
-	padding-bottom: 75px;
-	margin-bottom: 75px;
 }
 
-.header-container-time {
-	width: 100%;
+.time {
 	background-image: url("../employee-retention.jpg");
-	background-size: cover;
-	padding-top: 75px;
-	padding-bottom: 75px;
-	margin-bottom: 75px;
 }
 
-.header-container-html {
-	width: 100%;
+.html {
 	background-image: url("../spreadsheets.jpg");
-	background-size: cover;
-	padding-top: 75px;
-	padding-bottom: 75px;
-	margin-bottom: 75px;
 }
 
-.header-container-html-p2 {
-	width: 100%;
+.html-p2 {
 	background-image: url("../toolkit.jpg");
-	background-size: cover;
-	padding-top: 75px;
-	padding-bottom: 75px;
-	margin-bottom: 75px;
 }
 
-.header-container-emotional-intelligence {
-	width: 100%;
+.emotional-intelligence {
 	background-image: url("../emotional-intelligence.jpg");
-	background-size: cover;
-	padding-top: 75px;
-	padding-bottom: 75px;
-	margin-bottom: 75px;
 }
 
 
@@ -238,4 +216,14 @@ h2 {
 	font-family: 'Raleway', sans-serif;
 	color: #ff6666;
 	text-decoration: none;
+}
+
+@media (max-width: 540px) {
+	.blog-button {
+		font-size: 12px;
+	}
+}
+
+.flex {
+	display: flex;
 }
