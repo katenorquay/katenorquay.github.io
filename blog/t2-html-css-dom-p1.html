@@ -1,58 +1,64 @@
 <!DOCTYPE html>
 <html lang ="en">
-  <head>
-    <title>c1-reflection-blog</title>
-    <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="../css/stylesheet.css" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Raleway|Ubuntu" rel="stylesheet">
-  </head>
+<head>
+  <title>c1-reflection-blog</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <body>
+  <link href="../css/stylesheet.css" rel="stylesheet" type="text/css">
+  <script type="text/javascript" src="javascript/script.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Arvo|Dosis" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.css">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css">
+  <link href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" rel="stylesheet">
+</head>
 
+<body>
   <header>
-    <div class="navigation">
-      <a href="/" class="button">Home</a>
-      <a href="/blog/t2-html-css-dom-p2.html" class="button">Next</a>
-      </a>
+    <div class="intro-container">
+      <img src="../wolf-yellow.png" class="wolf-header"></img>
+      <div class="flex">
+        <h1>Kates EDA Blog. Some thoughts as I got through EDA.</h1>
+      </div>
     </div>
   </header>
 
-  <div class= "header-container html">
-      <h1>Udacity, Part One</h1>
+  <div class="body-container">
+    <div class="decorative-block"><a href="" class="home-button">Home</a>
+    </div>
+    <div class=contact-block>
+      <a href="" class="left-arrow"><i class="ion-android-arrow-back"></i></a>
+      <a href="" class="right-arrow"><i class="ion-android-arrow-forward"></i></a>
     </div>
 
-  <h2>Feature Wishlist</h2>
-<ul>
-  <li>Flexbox</li>
-  <li><a class= "list" href ="http://www.csszengarden.com/215/">Animations</a> like this robot that floats up the page, or the pinwheel spinning behind him</li>
-  <li><a class ="list" href="http://www.rookiemag.com/">Patterned Borders</a> around content</li>
-  <li><a class ="list" href="http://redrain.tw/">Pages that change as you scroll</a> (Although this is way too difficult for me right now)</li>
-  <li><a class ="list" href="http://www.frankie.com.au/">Side menu bars</a> that pop out when clicked: </li>
-  <li><a class="list" href="http://garbett.com.au/">Icons on the mouse</a></li>
-  <li>Two of my favourite websites, which I love design wise and want to try and recreate for practice: <a class="list" href="http://contract-district.com/en/">Contract District</a> and <a class="list" href="http://www.heyblend.com/">Hey Blend</a></li>
-</ul>
+    <div class="paragraph-container">
+      <h3 class="blog-heading">Feature Wishlist</h3>
+      <ul>
+        <li>Flexbox</li>
+        <li><a class= "list" href ="http://www.csszengarden.com/215/">Animations</a> like this robot that floats up the page, or the pinwheel spinning behind him</li>
+        <li><a class ="list" href="http://www.rookiemag.com/">Patterned Borders</a> around content</li>
+        <li><a class ="list" href="http://redrain.tw/">Pages that change as you scroll</a> (Although this is way too difficult for me right now)</li>
+        <li><a class ="list" href="http://www.frankie.com.au/">Side menu bars</a> that pop out when clicked: </li>
+        <li><a class="list" href="http://garbett.com.au/">Icons on the mouse</a></li>
+        <li>Two of my favourite websites, which I love design wise and want to try and recreate for practice: <a class="list" href="http://contract-district.com/en/">Contract District</a> and <a class="list" href="http://www.heyblend.com/">Hey Blend</a></li>
+      </ul>
 
+      <h3 class="blog-heading">An analogy to describe HTML, CSS and the DOM</h3>
+      <p>
+        A webpage is like baking a cake. HTML is the ingredients, flour, milk and eggs etc. CSS is the decoration, the icing, candles, or even the way you cut it. The DOM is the recipe, the correct way to put the ingredients and decoration together to produce the desired result.
+      </p>
+      <h3 class="blog-heading">Boxifying Design</h3>
+      <p>
+        Everything on a webpage is inside a box. You can break a design down into boxes to better understand how a webpage fits together. Boxifying design makes it easy to see how to structure your HTML
+      </p>
+      <h3 class="blog-heading">The Box Model</h3>
+      <p>
+        The Box Model relates to the sizing of boxes on a webpage, which can include the box content, padding, border and margin. This can get quite tricky, because if you set the size you want the content to be, without taking the padding and border into account you can get boxes that overflow into each other. A way to avoid this is to use border-box, which means the box remains the same size. If you increase the border size the padding and content will readjust their size, rather than the box.
+      </p>
+    </div>
+  </div>
+</body>
 
-  <h2>An analogy to describe HTML, CSS and the DOM</h2>
-  <p>
-    A webpage is like baking a cake. HTML is the ingredients, flour, milk and eggs etc. CSS is the decoration, the icing, candles, or even the way you cut it. The DOM is the recipe, the correct way to put the ingredients and decoration together to produce the desired result.
-  </p>
-  <h2>Boxifying Design</h2>
-  <p>
-    Everything on a webpage is inside a box. You can break a design down into boxes to better understand how a webpage fits together. Boxifying design makes it easy to see how to structure your HTML
-  </p>
-  <h2>The Box Model</h2>
-  <p>
-    The Box Model relates to the sizing of boxes on a webpage, which can include the box content, padding, border and margin. This can get quite tricky, because if you set the size you want the content to be, without taking the padding and border into account you can get boxes that overflow into each other. A way to avoid this is to use border-box, which means the box remains the same size. If you increase the border size the padding and content will readjust their size, rather than the box.
-  </p>
-  </body>
-
-  <footer>
-    <div class="social-media">
-      <a class="social-button" href=""><i class="ion-social-facebook"></i></a>
-      <a class="social-button" href=""><i class="ion-social-twitter"></i></a>
-      <a class="social-button" href=""><i class="ion-social-github"></i></a>
-      <a class="social-button" href=""><i class="ion-social-instagram"></i></a>
-    <div>
-  </footer>
+<footer>
+  <img src="../wolf2.png" class="wolf-footer"></img>
+</footer>

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>c1-reflection-blog</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <script type="text/javascript" src="javascript/script.js"></script>
+  <link href="../css/stylesheet.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Arvo|Dosis" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.css">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css">
+  <link href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" rel="stylesheet">
+</head>
+
+<body>
+  <header>
+    <div class="intro-container">
+      <img src="../wolf-yellow.png" class="wolf-header"></img>
+      <div class="flex">
+        <h1>Kates EDA Blog. Some thoughts as I got through EDA.</h1>
+      </div>
+    </div>
+  </header>
+
+  <div class="body-container">
+    <div class="decorative-block"><a href="" class="home-button">Home</a>
+    </div>
+    <div class="contact-block">
+      <a href="" class="left-arrow"><i class="ion-android-arrow-back"></i></a>
+      <a href="" class="right-arrow"><i class="ion-android-arrow-forward"></i></a>
+    </div>
+
+   <div class="paragraph-container">
+     <p>
+       It’s my first week at EDA and so far I’m finding it pretty awesome! Initially I thought that we were mainly going to be filling our brains up with technical skills without a pile of context, like you do on Free Code Camp or Code Academy. I was a little intimidated. It’s really cool to see that the focus of EDA is building great engineers, so your empathy, interpersonal skills and design knowledge all come into it. I want to eventually build a startup (after I get a job and earn some money!) so it’s cool to see that this course is gonna give me more knowledge than straight up coding.
+     </p>
+     <p>
+       I like the whole ‘no grades’ element, cos I used to be a person who would do the minimum amount of work for the best grade. I wasn’t so interested in pushing myself or helping other people, and I think that will change in an environment like EDA
+     </p>
+     <p>
+       I also like the focus on team work. I’m a bit introverted and a bit competitive, so I thought this would be a challenge for me, but so far I’ve been loving all the check ins and accountability groups. I like looking at the waffle board with everyone’s cards in it, so even if I’m having a bad day I can see someone else move a card and be like ‘GO TEAM GO!’
+    </p>
+    <p>
+        I’ve done a bit of theatre work and I’m finding EDA quite similar to putting on a production. Doesn’t matter if you’re a great actor, if the other actors don’t know their lines, or the script is flabby then the show is gonna be crap. You’ve got to be kind to each other and work together to build the best possible show. This was a surprise to me, cos I thought coding would be a lot less creative and team work based.
+    </p>
+    <p>
+      So basically I’m really excited for the course and looking forward to building relationships and hacking on some cool shit with you all!
+    </p>
+   </div>
+</body>
+
+<div class="w3-content">
+
+<img class="mySlides" src="../images/wireframe-index-page-desktop.jpg">
+<img class="mySlides" src="../images/wireframe-index-page-mobile.jpg">
+<img class="mySlides" src="../images/wireframe-blog-page-desktop.jpg">
+<img class="mySlides" src="../images/wireframe-blog-page-mobile.jpg">
+
+<a class="w3-btn-floating" onclick="plusDivs(-1)">❮</a>
+<a class="w3-btn-floating" onclick="plusDivs(1)">❯</a>
+
+</div>
+
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";
+  }
+  x[slideIndex-1].style.display = "block";
+}
+</script>
+
+<footer>
+ <img src="../wolf2.png" class="wolf-footer"></img>
+</footer>
