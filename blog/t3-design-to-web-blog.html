@@ -24,28 +24,31 @@
   </header>
 
   <div class="body-container">
-    <div class="decorative-block"><a href="" class="home-button">Home</a>
+    <div class="both clearfix">
+    <div class="home-block"><a href="" class="home-button">Home</a>
     </div>
     <div class="contact-block">
       <a href="" class="left-arrow"><i class="ion-android-arrow-back"></i></a>
       <a href="" class="right-arrow"><i class="ion-android-arrow-forward"></i></a>
     </div>
+  </div>
 
    <div class="paragraph-container">
+     <h3 class="blog-heading">What is a responsive site? Why is responsiveness important?</h3>
      <p>
-       It’s my first week at EDA and so far I’m finding it pretty awesome! Initially I thought that we were mainly going to be filling our brains up with technical skills without a pile of context, like you do on Free Code Camp or Code Academy. I was a little intimidated. It’s really cool to see that the focus of EDA is building great engineers, so your empathy, interpersonal skills and design knowledge all come into it. I want to eventually build a startup (after I get a job and earn some money!) so it’s cool to see that this course is gonna give me more knowledge than straight up coding.
+       A responsive site is one that changes layout or design elements to respond to different screen sizes. It's important that sites are responsive, because a user could visit your site from a number of different devices, and you want the site to look good across all of them.
      </p>
+     <h3 class="blog-heading">What is mobile first design? why is it important?</h3>
      <p>
-       I like the whole ‘no grades’ element, cos I used to be a person who would do the minimum amount of work for the best grade. I wasn’t so interested in pushing myself or helping other people, and I think that will change in an environment like EDA
+       Mobile first design is when you design your website to look good on smaller devices first. You can do it either way, but mobile first is a good idea because when you go from big to small there are a larger amount of break points that could affect your design. If you start small you will hopefully only have to change the design once to suit a larger screen. Smaller devices also usually have less power, so it's a good idea to run less code on them where possible, and leave the media queries for larger devices.
      </p>
+     <h3 class="blog-heading">What are frameworks? What are their pros and cons?</h3>
      <p>
-       I also like the focus on team work. I’m a bit introverted and a bit competitive, so I thought this would be a challenge for me, but so far I’ve been loving all the check ins and accountability groups. I like looking at the waffle board with everyone’s cards in it, so even if I’m having a bad day I can see someone else move a card and be like ‘GO TEAM GO!’
-    </p>
-    <p>
-        I’ve done a bit of theatre work and I’m finding EDA quite similar to putting on a production. Doesn’t matter if you’re a great actor, if the other actors don’t know their lines, or the script is flabby then the show is gonna be crap. You’ve got to be kind to each other and work together to build the best possible show. This was a surprise to me, cos I thought coding would be a lot less creative and team work based.
-    </p>
-    <p>
-      So basically I’m really excited for the course and looking forward to building relationships and hacking on some cool shit with you all!
+       Frameworks are groups of pre-defined CSS classes. Frameworks can be useful as a time saver, as you can use pre-defined columns and styles to save time while you are coding, so you don't have to reinvent the wheel. However, frameworks can be annoying, as sometimes they will have elements you don't know about, like padding or margins, which can be confusing. They could also be unhelpful while learning, as they do some behind the scenes 'magic' to make things responsive which could be difficult to understand.
+     </p>
+     <h3 class="blog-heading">What is a wireframe? Why do we use them?</h3>
+     <p>
+       A wireframe is a sketch which outlines and boxifies key elements on the page. They are a useful tool to help you break down a design so you can easily see how you need to markup your html. They are also a easy way to show a client your ideas for a website so you can check that you are on the same page, and all the necessary functionality is there, without getting bogged down in design elements like colours and fonts. There are also quick and easy to produce, so you can communicate with the client before you spend lots of time writing code. 
     </p>
    </div>
 </body>
@@ -83,5 +86,7 @@ function showDivs(n) {
 </script>
 
 <footer>
- <img src="../wolf2.png" class="wolf-footer"></img>
+  <div class="icon-container">
+  <i class="ion-beer footer-icon"></i>
+  </div>
 </footer>
