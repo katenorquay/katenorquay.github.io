@@ -43,8 +43,6 @@ h1 {
 
 .home-block {
 	width: 40%;
-	border-left: solid 5px;
-	border-bottom: solid 5px;
 	height: 50px;
 	box-sizing: border-box;
 	float:left;
@@ -55,22 +53,23 @@ h1 {
 	background-image: url("../lines2.png");
 	background-repeat: repeat;
 	background-size: 25px;
-	border-left: solid 5px;
-	border-bottom: solid 2.5px;
 	height: 50px;
 	box-sizing: border-box;
 	float:left;
 }
 
 .contact-block {
-	background-color: black;
 	height: 50px;
 	box-sizing: border-box;
 	float: left;
-	width: 60%
+	width: 60%;
+	background-image: url("../lines2.png");
+  background-size: 25px;
 }
 
 .both {
+	border: solid 5px black;
+	border-top: none;
 }
 
 .blog-block {
@@ -213,21 +212,25 @@ p, li {
 }
 
 .left-arrow {
-	color: #ffd819;
-	font-size: 40px;
-	position: absolute;
-	left: 270px;
-	padding-top: 5px;
+	border-right: 1px solid #ffd819;
 }
 
 .right-arrow {
-	color:#ffd819;
-	font-size: 40px;
-	position: absolute;
-	right: 50px;
-	padding-top: 5px;
+	border-left: 1px solid #ffd819;
 }
 
+.arrow {
+	color: #ffd819;
+	background-color: black;
+	font-size: 40px;
+	display: block;
+	float: left;
+	height: 50px;
+	line-height: 50px;
+	width: 50%;
+	text-align: center;
+	box-sizing: border-box;
+}
 .email-icon {
 	color: #ffd819;
 	margin-top: 0;
