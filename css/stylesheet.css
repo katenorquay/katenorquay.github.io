@@ -420,3 +420,16 @@ color: black;
 		padding-bottom: 20px;
 	}
 }
+
+@media (max-width: 400px) {
+	.blog-block h4 {
+		font-size: 12px;
+	}
+	.blog-block h2 {
+		font-size: 50px;
+	}
+	h1 {
+		font-size: 40px;
+		padding-left: 15px;
+	}
+}
