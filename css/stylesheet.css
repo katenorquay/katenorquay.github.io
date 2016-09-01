@@ -1,5 +1,6 @@
 body {
 	background-color: #ffd819;
+	margin: 25px;
 }
 
 .wolf-header {
@@ -10,8 +11,6 @@ body {
 }
 
 .intro-container {
-	margin-left: 20px;
-	margin-right: 20px;
 	height: 500px;
 	display: block;
 	margin-top: 20px;
@@ -34,15 +33,14 @@ h1 {
 	font-size: 45px;
 	font-family: 'Arvo', serif;
 	padding-right: 20px;
+	max-width: 75%;
 }
 
 .body-container {
-	margin-left: 20px;
-	margin-right: 20px;
 }
 
 .home-block {
-	width: 40%;
+	width: 50%;
 	height: 50px;
 	box-sizing: border-box;
 	float:left;
@@ -62,9 +60,14 @@ h1 {
 	height: 50px;
 	box-sizing: border-box;
 	float: left;
-	width: 60%;
+	width: 50%;
 	background-image: url("../lines2.png");
   background-size: 25px;
+	position: relative;
+}
+
+#cb {
+	width: 60%;
 }
 
 .both {
@@ -86,6 +89,10 @@ h1 {
 
 .blog-block:last-child {
 	border-bottom: solid 5px black;
+}
+
+.blog-block:first-child {
+	border-top: none;
 }
 
 h2 {
@@ -113,14 +120,11 @@ h4 {
 }
 
 footer {
-	margin-top: 75px;
 	position: relative;
 	margin-bottom: 30px;
 	border-left: solid 5px black;
 	border-right: solid 5px black;
 	border-bottom: solid 5px black;
-	margin-left: 20px;
-	margin-right: 20px;
 	margin-top: 0;
 	height: 80px;
 	background-image: url("../lines2.png");
@@ -158,11 +162,10 @@ p, li {
 	padding-left: 40px;
 	padding-right: 40px;
 	box-sizing: border-box;
+	background-color: #ffd819;
 }
 
 .w3-content {
-	margin-left: 10px;
-	margin-right: 10px;
 	position:relative;
 	border-bottom: solid 5px black;
 	border-left: solid 5px black;
@@ -175,11 +178,31 @@ p, li {
 }
 
 .w3-btn-floating {
-	font-size: 50px;
+	font-size: 40px;
 	position:absolute;
-	top:45%;
-	left: 0;
+	bottom: 0;
 	right: 0;
+	display: block;
+	width: 40px;
+	text-align: center;
+	padding: 10px;
+	background-color: #ffd819;
+	color: black;
+	border: solid 4px black;
+}
+
+.w3-btn-floating:hover {
+	background-color: black;
+	color: #ffd819;
+}
+
+.btn-previous {
+	right: 65px;
+	border-right: none;
+}
+
+.btn-next {
+	border-right: none;
 }
 
 .blog-navigation {
@@ -198,6 +221,11 @@ p, li {
 	text-decoration: none;
 	color: black;
 	line-height: 50px;
+}
+
+.home-button:hover {
+	background-color: black;
+	color: #ffd819;
 }
 
 .blog-heading {
@@ -231,11 +259,161 @@ p, li {
 	text-align: center;
 	box-sizing: border-box;
 }
+
+.arrow:hover {
+background: transparent;
+color: black;
+}
+
 .email-icon {
 	color: #ffd819;
 	margin-top: 0;
-	font-size: 40px;
+	font-size: 50px;
 	position:absolute;
-	right: 60px;
+	right: 0;
 	line-height: 50px;
+	background-color: black;
+	width: 100%;
+	display: block;
+	box-sizing: border-box;
+	text-align: right;
+	padding-right: 25px;
+}
+
+.menu-block {
+	width: 20%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	right: 0;
+	border-left: solid 5px black;
+	margin-left: 20px;
+	display: none;
+}
+
+.menu-button {
+	text-decoration: none;
+	color: black;
+	font-family: Helvetica, Arial;
+	font-size: 18px;
+	font-weight: bold;
+	display: none;
+	text-align: center;
+	vertical-align: middle;
+	padding: 15px;
+}
+
+.menu-button:first-child {
+	margin-top: 170px;
+}
+
+.menu-button:last-child {
+	margin-bottom: 170px;
+}
+
+.square {
+	display: none;
+}
+
+#pict3 {
+	background-image: url("../lines2.png");
+	background-repeat: repeat;
+	background-size: 25px;
+}
+
+@media (min-width: 1000px) {
+	#pict3 {
+		display: inline-block;
+		border: solid 5px black;
+		border-top: none;
+		border-bottom: none;
+	}
+	#pct3 {
+		float: left;
+		width:50%;
+		border: none;
+	}
+	#pct3::after {
+		content: "";
+		display: table;
+		clear: both;
+	}
+	#w3t3 {
+		float: left;
+		width: 50%;
+		border: none;
+	}
+	#w3t3::after {
+		content:"";
+		display: table;
+		clear: both;
+	}
+.menu-button {
+	display: block;
+}
+.menu-block {
+	display: block;
+}
+}
+
+@media (min-width: 650px) {
+	.blog-block {
+		display: inline-block;
+		float: left;
+		width: 50%;
+		height: 250px;
+		position: relative;
+	}
+	#sprint-one {
+	}
+	#sprint-one-2 {
+		margin-top: 125px;
+		border-top: solid 5px black;
+		border-left: none;
+		border-bottom: solid 5px black;
+	}
+	#sprint-two {
+		margin-top: -125px;
+	}
+	#sprint-two-2 {
+		border-left: none;
+		border-bottom: solid 5px black;
+		border-top: none;
+	}
+	#sprint-two-3 {
+		margin-top: -125px;
+	}
+	#sprint-three {
+		border-bottom: solid 5px black;
+		border-left: none;
+		border-top: none;
+	}
+	#sprint-three-2 {
+		margin-top: -125px;
+		border-bottom: none;
+	}
+	footer {
+		border-top: solid 5px black;
+	}
+	.blog-container::after {
+		content: "";
+		display: table;
+		clear: both;
+	}
+	.blog-block h4 {
+		font-size: 22px;
+		font-family: Helvetica, Arial;
+	}
+	.blog-block h2 {
+		padding-right: 100%;
+		padding-bottom: 20px;
+	}
+	.square {
+		display: block;
+		width: 35px;
+		background-color: #ffd819;
+		position: absolute;
+		top: 108px;
+		left: 288px;
+	}
 }
