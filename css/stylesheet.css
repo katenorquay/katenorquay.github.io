@@ -465,10 +465,10 @@ h1 {
 	.blog-block h4 {
 		font-size: 22px;
 		font-family: Helvetica, Arial;
+		padding-left: 15px;
 	}
 	.blog-block h2 {
 		width: 100%;
-		padding-bottom: 20px;
 	}
 	.blog-block:nth-child(even)::after {
     content: "";
