@@ -39,6 +39,10 @@ body {
 	clear: both;
 }
 
+.blog-heading {
+		max-width: 30em;
+}
+
 h1 {
 	position: absolute;
 	bottom: 70px;
@@ -158,7 +162,7 @@ footer {
 
 p, li {
 	line-height: 155%;
-	max-width: 30em;
+	max-width: 35em;
 	margin-top: 0;
 	font-family: Helvetica, Arial;
 	box-sizing: border-box;
