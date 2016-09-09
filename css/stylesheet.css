@@ -448,7 +448,15 @@ h1 {
 	}
 	#sprint-three-2 {
 		margin-top: -125px;
+	}
+	#sprint-four {
+		border-top: none;
+		border-left: none;
+		border-bottom: solid 5px black;
+	}
+	#sprint-four-2 {
 		border-bottom: none;
+		margin-top: -125px;
 	}
 	#home-page {
 		border-top: solid 5px black;
