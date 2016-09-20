@@ -468,6 +468,14 @@ h1 {
 	}
 	#sprint-five-2 {
 		margin-top: -125px;
+	}
+	#sprint-six {
+		border-top: none;
+		border-left: none;
+		border-bottom: solid 5px black;
+	}
+	#sprint-six-2 {
+		margin-top: -125px;
 		border-bottom: none;
 	}
 	#home-page {

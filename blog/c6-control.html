@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang ="en">
+<head>
+  <title>t4-javascript-basics</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link href="../css/stylesheet.css" rel="stylesheet" type="text/css">
+  <script type="text/javascript" src="javascript/script.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Arvo|Dosis" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.css">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css">
+  <link href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" rel="stylesheet">
+</head>
+
+<body>
+  <header>
+    <div class="intro-container">
+      <a href="/" class="wolf-header">Home</a>
+      <div class="flex">
+        <h1>Control</h1>
+      </div>
+     </div>
+    </header>
+
+    <div class="body-container">
+      <div class="both clearfix">
+        <div class="contact-block">
+        <a href="/blog/t5-problem-solving.html" class="left-arrow  arrow"><i class="ion-android-arrow-back"></i></a>
+        <a href="/blog/t6-js-language.html" class="right-arrow  arrow"><i class="ion-android-arrow-forward"></i></a>
+       </div>
+       <a href="/" class="home-button"></a>
+
+     </div>
+  <div class="paragraph-container">
+    <p>
+      My problem was with the homepage of this blog. I have rectangler shaped links to the blogs, and I wanted to add square shapes to the top left hand corner of the ones on the right of the page. Basically they had to go down the center of the page at equal intervals. I had no idea how to do this, so I did my favourite problem solving teachnique: trying something, which usually has mixed results. I managed to kind of make it work by putting ids on all of the blog links and making the squares position absolute, so they never change position. But once the browser was resized the squares would stay in the same place, regardless of where the blog links were, so they would end up covering content and looked messy. I had another go with some stupid but creative solutions, like creating another container set to 50% of the width of the page, which would hold the square shapes. Again, this kind of worked, but it was a dangerous solution, because the divs were not actually attached to the blog links creating some problems when the browser was resized.
+    </p>
+    <p>
+      Then I moved on to googling/ reading error messages. I also looked at the code of a website that had these divs and used that as an example. I figured out that pseudo elements were necessary, but I didn't really know what those were or how they worked, so I did some general research.
+    </p>
+    <p>
+      After that I asked my boyfriend how he would do it. He explained how psuedo elements work to me, looked at my code and gave me some suggestions. After that, I went back to trying something until I was happy with the result.
+    </p>
+    <p>
+      Finally I reflected on the process, took some notes, and tried out building another psuedo element by myself to cement the knowledge. I think my problem solving skills are pretty good, I've used most of the processes on the list at one point or another. I would like to improve on reading error messages and console logging, as I often do this, but usually don't understand what's happening well enough to solve the problem by myself.
+    </p>
+    <h3 class="blog-heading">Javascript Functions</h3>
+      <p>
+        .filter() is a way to filter through data, to find elements that meet the filtering criteria For example, you might have data about a group of people, but you only want to use those of them who are over 18. You can use .filter() to look through the data to find just those people.
+      </p>
+      <p>
+        .reduce() is a way to reduce a collection of data into a single value. For example, if you have an array full of numbers you could use .reduce() (combined with instructions about the way you want to numbers to be combined) to find the sum of all of the numbers,
+      </p>
+      <p>
+        .map() is a way to call a function on every value in a set of data. For example you could use map() with a function of adding 5, on an array. This would add 5 to each of the numbers inside the array. It's much faster than manually updating each piece of data, and you could save these new values to a new array or variable.
+      </p>
+  </div>
+</div>
+</body>
+
+<footer>
+  <div class="icon-container">
+    <i class="ion-beer footer-icon"></i>
+  </div>
+</footer>
