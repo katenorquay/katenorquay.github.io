@@ -33,28 +33,28 @@
 
      </div>
   <div class="paragraph-container">
+    <h3 class="blog-heading">Parentheses</h3>
     <p>
-      My problem was with the homepage of this blog. I have rectangler shaped links to the blogs, and I wanted to add square shapes to the top left hand corner of the ones on the right of the page. Basically they had to go down the center of the page at equal intervals. I had no idea how to do this, so I did my favourite problem solving teachnique: trying something, which usually has mixed results. I managed to kind of make it work by putting ids on all of the blog links and making the squares position absolute, so they never change position. But once the browser was resized the squares would stay in the same place, regardless of where the blog links were, so they would end up covering content and looked messy. I had another go with some stupid but creative solutions, like creating another container set to 50% of the width of the page, which would hold the square shapes. Again, this kind of worked, but it was a dangerous solution, because the divs were not actually attached to the blog links creating some problems when the browser was resized.
+      Parentheses are used in two main ways in Javascript. The first is to feed an arguement into a function, or to call a function. For example, you could write a function (a block of code that makes something happen) that figures out the square root of a number: function squareRoot(number). The arguement (the bit inside the parentheses) is the value that the function will alter. You can get this function to run by calling it: squareRoot(25); which will return the squareroot of 25, 5.
+
+      You can also use parentheses to group together equations or conditions, similar to how you used BEDMAS in school. Parentheses tell the computer which parts of the code to execute first.
     </p>
+    <h3 class="blog-heading">Brackets</h3>
     <p>
-      Then I moved on to googling/ reading error messages. I also looked at the code of a website that had these divs and used that as an example. I figured out that pseudo elements were necessary, but I didn't really know what those were or how they worked, so I did some general research.
+      Square brackets can be used to create arrays, which are one way you can hold several values in once place. An Array filled with numbers looks like this: var newArray = [10, 24, 32, 45, 58];. Because the values inside an array have consistent positions you can also use brackets to access them. For example, newArray[0] would access the value at the first postion in the array: 10.
+
+      You can also use square brackets to access values inside objects, which are another way to hold several values. An object looks like this: var newObject = {name: "Kate", age: 24}. I could access the name property with newObject["name"]. You could also do this using dot notation newObject.name.
     </p>
+    <h3 class="blog-heading">Braces</h3>
     <p>
-      After that I asked my boyfriend how he would do it. He explained how psuedo elements work to me, looked at my code and gave me some suggestions. After that, I went back to trying something until I was happy with the result.
+      A difference between objects and arrays is that values in an object are always contained within curly braces. Braces are also used to surround blocks of code, like functions, for statements, or if/else statements. If your block of code makes something happen, like changing a variable, or searching through a group of variables it probably needs curly braces.
     </p>
+    <h3 class="blog-heading">Single or Double Quotes</h3>
     <p>
-      Finally I reflected on the process, took some notes, and tried out building another psuedo element by myself to cement the knowledge. I think my problem solving skills are pretty good, I've used most of the processes on the list at one point or another. I would like to improve on reading error messages and console logging, as I often do this, but usually don't understand what's happening well enough to solve the problem by myself.
+      Single and double quotes are more or less interchangeable in Javascript. They can both be used to create a string, which is just a variable wrapped in quotes. For example, var newString = "this is a string".
+
+      You can also use quotes along with bracket notation to access a variable inside an object. The difference between newObject[name] and newObject["name"] is that the first will assume 'name' is a stand in for a variable, the same way you'd use 'x' in algebra. But if quotes are used the computer will look for the value that matches the variable name 'name', which in this example is "Kate".
     </p>
-    <h3 class="blog-heading">Javascript Functions</h3>
-      <p>
-        .filter() is a way to filter through data, to find elements that meet the filtering criteria For example, you might have data about a group of people, but you only want to use those of them who are over 18. You can use .filter() to look through the data to find just those people.
-      </p>
-      <p>
-        .reduce() is a way to reduce a collection of data into a single value. For example, if you have an array full of numbers you could use .reduce() (combined with instructions about the way you want to numbers to be combined) to find the sum of all of the numbers,
-      </p>
-      <p>
-        .map() is a way to call a function on every value in a set of data. For example you could use map() with a function of adding 5, on an array. This would add 5 to each of the numbers inside the array. It's much faster than manually updating each piece of data, and you could save these new values to a new array or variable.
-      </p>
   </div>
 </div>
 </body>
