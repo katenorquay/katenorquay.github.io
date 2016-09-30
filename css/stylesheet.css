@@ -431,51 +431,55 @@ h1 {
 	#sprint-one-2 {
 		margin-top: 125px;
 		border-top: solid 5px black;
-		border-left: none;
 		border-bottom: solid 5px black;
 	}
 	#sprint-two {
 		margin-top: -125px;
+		border-right: none;
 	}
 	#sprint-two-2 {
-		border-left: none;
 		border-bottom: solid 5px black;
 		border-top: none;
 	}
 	#sprint-two-3 {
 		margin-top: -125px;
+		border-right: none;
 	}
 	#sprint-three {
 		border-bottom: solid 5px black;
-		border-left: none;
 		border-top: none;
 	}
 	#sprint-three-2 {
 		margin-top: -125px;
+		border-right: none;
 	}
 	#sprint-four {
 		border-top: none;
-		border-left: none;
 		border-bottom: solid 5px black;
 	}
 	#sprint-four-2 {
 		margin-top: -125px;
+		border-right: none;
 	}
 	#sprint-five {
 		border-top: none;
-		border-left: none;
 		border-bottom: solid 5px black;
 	}
 	#sprint-five-2 {
 		margin-top: -125px;
+		border-right: none;
 	}
 	#sprint-six {
 		border-top: none;
-		border-left: none;
 		border-bottom: solid 5px black;
 	}
 	#sprint-six-2 {
 		margin-top: -125px;
+		border-bottom: solid 5px black;
+		border-right: none;
+	}
+	#sprint-seven {
+		border-top: none;
 		border-bottom: none;
 	}
 	#home-page {
