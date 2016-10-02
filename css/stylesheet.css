@@ -482,6 +482,16 @@ h1 {
 		border-top: none;
 		border-bottom: none;
 	}
+	#sprint-eight {
+		margin-top: -125px;
+		border-bottom: solid 5px black;
+		border-right: none;
+		border-top: none;
+	}
+	#sprint-eight-2 {
+		border-bottom: none;
+		border-top: solid 5px black;
+	}
 	#home-page {
 		border-top: solid 5px black;
 	}
