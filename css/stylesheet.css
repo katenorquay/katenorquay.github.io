@@ -432,65 +432,71 @@ h1 {
 		margin-top: 125px;
 		border-top: solid 5px black;
 		border-bottom: solid 5px black;
+				border-left: none;
 	}
 	#sprint-two {
 		margin-top: -125px;
-		border-right: none;
 	}
 	#sprint-two-2 {
 		border-bottom: solid 5px black;
 		border-top: none;
+				border-left: none;
 	}
 	#sprint-two-3 {
 		margin-top: -125px;
-		border-right: none;
 	}
 	#sprint-three {
 		border-bottom: solid 5px black;
 		border-top: none;
+				border-left: none;
 	}
 	#sprint-three-2 {
 		margin-top: -125px;
-		border-right: none;
 	}
 	#sprint-four {
 		border-top: none;
 		border-bottom: solid 5px black;
+				border-left: none;
 	}
 	#sprint-four-2 {
 		margin-top: -125px;
-		border-right: none;
 	}
 	#sprint-five {
 		border-top: none;
 		border-bottom: solid 5px black;
+				border-left: none;
 	}
 	#sprint-five-2 {
 		margin-top: -125px;
-		border-right: none;
 	}
 	#sprint-six {
 		border-top: none;
 		border-bottom: solid 5px black;
+				border-left: none;
 	}
 	#sprint-six-2 {
 		margin-top: -125px;
 		border-bottom: solid 5px black;
-		border-right: none;
 	}
 	#sprint-seven {
 		border-top: none;
 		border-bottom: none;
+				border-left: none;
 	}
 	#sprint-eight {
 		margin-top: -125px;
 		border-bottom: solid 5px black;
-		border-right: none;
 		border-top: none;
 	}
 	#sprint-eight-2 {
-		border-bottom: none;
 		border-top: solid 5px black;
+		border-bottom: solid 5px black;
+		border-left: none;
+	}
+	#sprint-nine {
+		margin-top: -125px;
+		border-bottom: none;
+		border-top: none;
 	}
 	#home-page {
 		border-top: solid 5px black;
