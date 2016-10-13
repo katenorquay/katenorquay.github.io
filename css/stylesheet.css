@@ -432,7 +432,7 @@ h1 {
 		margin-top: 125px;
 		border-top: solid 5px black;
 		border-bottom: solid 5px black;
-				border-left: none;
+		border-left: none;
 	}
 	#sprint-two {
 		margin-top: -125px;
@@ -440,7 +440,7 @@ h1 {
 	#sprint-two-2 {
 		border-bottom: solid 5px black;
 		border-top: none;
-				border-left: none;
+		border-left: none;
 	}
 	#sprint-two-3 {
 		margin-top: -125px;
@@ -448,7 +448,7 @@ h1 {
 	#sprint-three {
 		border-bottom: solid 5px black;
 		border-top: none;
-				border-left: none;
+		border-left: none;
 	}
 	#sprint-three-2 {
 		margin-top: -125px;
@@ -472,7 +472,7 @@ h1 {
 	#sprint-six {
 		border-top: none;
 		border-bottom: solid 5px black;
-				border-left: none;
+		border-left: none;
 	}
 	#sprint-six-2 {
 		margin-top: -125px;
@@ -481,7 +481,7 @@ h1 {
 	#sprint-seven {
 		border-top: none;
 		border-bottom: none;
-				border-left: none;
+		border-left: none;
 	}
 	#sprint-eight {
 		margin-top: -125px;
